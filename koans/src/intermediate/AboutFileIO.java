@@ -107,7 +107,7 @@ public class AboutFileIO {
         }
         // Add the loop to go through the file line by line and add the line
         // to the StringBuffer
-        System.out.println(sb.toString());
+        // System.out.println(sb.toString());
         assertEquals(sb.toString(), "1. line\n2. line");
     }
 }
